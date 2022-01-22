@@ -134,7 +134,17 @@ const Wrapper = styled.main`
   section.padding-section {
     padding: 2rem 3rem;
   }
-
+  .background-img {
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.7;
+  }
   .top-section {
     position: relative;
 
